@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+
+header .topHeader {
+  position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px #2525254d;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 100;
+}
+
+header .topHeader > * {
+  width: 45%;
+}
+
+header .topHeader .topHeaderLogo img {
+  width: 2rem;
+  padding-left: 40px;
+}
+
+header .topHeader .topHeaderLinks {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .topHeader .topHeaderLinks a {
+  font-weight: 400;
+  display: block;
+  margin: 0px 0;
+  padding: 1px 9px;
+  font-size: 1rem;
+  color: #252525d1;
+}
+
+header .topHeaderCoverUp {
+  padding: 10vh;
+}
+
+header .bodyHeader {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to bottom, #ffffff, #c66b4455, #ffffff);
+}
+
+header .bodyHeader .bodyHeaderText {
+  width: 40%;
+  font-family: "Poppins", sans-serif;
+}
+
+header .bodyHeader .bodyHeaderText h4 {
+  font-size: 2.3rem;
+  color: #eb5d1e;
+  margin: 0 0 15px;
+}
+
+header .bodyHeader .bodyHeaderText p {
+  font-size: 1.3rem;
+}
+
+header .bodyHeader .bodyHeaderText button {
+  background: #eb5d1e;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 28px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 25px 0;
+}
+
+header .bodyHeader .bodyHeaderImage {
+  width: 50%;
+  text-align: center;
+}
+
+header .bodyHeader .bodyHeaderImage img {
+  width: 50%;
+}
+
+.componentBlock h3 {
+  text-align: center;
+  font-size: 2.1rem;
+  margin: 40px auto 0;
+}
+
+.componentBlock h3::after {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 21%;
+  margin: 2px auto;
+  background: #eb5d1e;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.componentBlock .contactFlex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 40px auto 20px;
+}
+
+.componentBlock .contactFlexInfo {
+  width: 30%;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 10px auto 30px;
+  border-left: 3px solid #eb5d1e;
+  background: #ffffff;
+  box-shadow: 5px 3px 5px #25252521;
+  padding: 10px 20px 5px;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexText {
+  width: 50%;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexIcon {
+  width: 18%;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexIcon svg {
+  background: #eb5d1e;
+  padding: 12px;
+  border-radius: 25%;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexText h4 {
+  font-size: 1.2rem;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexText p {
+  font-size: 0.9rem;
+  padding: 7px 0;
+}
+
+.componentBlock .contactFlexForm {
+  width: 50%;
+  border-left: 3px solid #eb5d1e;
+  padding-left: 30px;
+  background: #ffffff;
+}
+
+.componentBlock .contactFlexForm .contactFormInputFlex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.componentBlock .contactFlexForm .contactFormInputFlex div {
+  width: 45%;
+}
+
+.componentBlock .contactFlexForm form label {
+  width: 90%;
+  display: block;
+  font-weight: 700;
+  font-size: 0.89rem;
+}
+
+.componentBlock .contactFlexForm form input,
+.componentBlock .contactFlexForm form textarea {
+  width: 70%;
+  display: block;
+  padding: 18px 0 3px 8px;
+  border-bottom: 1px solid #eb5d1e;
+  margin: 5px 0 20px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.componentBlock .contactFlexForm form button {
+  width: 25%;
+  display: block;
+  padding: 18px 5px;
+  background: #eb5d1e;
+  margin: 5px 0 12px;
+  resize: none;
+  font-size: 0.85rem;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  header .topHeader {
+    justify-content: flex-start;
+  }
+  header .topHeader .topHeaderLinks {
+    display: none;
+  }
+
+  header .bodyHeader .bodyHeaderImage {
+    display: none;
+  }
+
+  header .bodyHeader .bodyHeaderText {
+    width: 95%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .componentBlock .contactFlex {
+    flex-direction: column;
+  }
+
+  .componentBlock .contactFlexInfo {
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  .componentBlock .contactFlexForm {
+    width: 95%;
+    margin: 5px auto;
+    padding-left: 10px;
+  }
+
+  .componentBlock .contactFlexForm .contactFormInputFlex div {
+    width: 50%;
+  }
+
+  .componentBlock .contactFlexForm form input,
+  .componentBlock .contactFlexForm form textarea {
+    width: 90%;
+  }
+
+  .componentBlock .contactFlexForm form button {
+    width: 40%;
+  }
+}

@@ -1,18 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
+import "./App.css";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div>
-      App
-      <br />
-      <lottie-player
-        src={"https://assets2.lottiefiles.com/packages/lf20_obkemuop.json"}
-        speed={1}
-        style={{ width: "300px", height: "300px", background: "transparent" }}
-        loop
-        autoplay
-      ></lottie-player>
-    </div>
+    <>
+      <Header />
+      <Contact />
+    </>
   );
 };
 
