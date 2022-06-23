@@ -98,6 +98,10 @@ header .bodyHeader .bodyHeaderImage img {
   width: 50%;
 }
 
+.componentBlock {
+  margin: 20vh auto;
+}
+
 .componentBlock h3 {
   text-align: center;
   font-size: 2.1rem;
@@ -113,6 +117,54 @@ header .bodyHeader .bodyHeaderImage img {
   background: #eb5d1e;
   padding: 2px;
   border-radius: 5px;
+}
+
+.componentBlock .faqsBlocks {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.componentBlock .faqsBlocks .faqblock {
+  margin: 12px auto 2px;
+  padding: 16px 0 6px;
+  border-radius: 7px;
+}
+
+.componentBlock .faqsBlocks .faqblock .faqQuestion {
+  padding: 0 20px 20px;
+  border-bottom: 2px solid #eb5d1e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+
+.componentBlock .faqsBlocks .faqblock .faqQuestion svg {
+  display: block;
+  margin: 2px 12px;
+  transform: rotate(-90deg);
+  transition: all 0.6s;
+}
+
+.componentBlock .faqsBlocks .faqblock.active .faqQuestion svg {
+  transform: rotate(0deg);
+  transition: all 0.6s;
+}
+
+.componentBlock .faqsBlocks .faqblock .faqAnswer {
+  padding: 0;
+  opacity: 0;
+  transition: all 0.6s;
+  height: 0;
+}
+
+.componentBlock .faqsBlocks .faqblock.active .faqAnswer {
+  opacity: 1;
+  padding-top: 20px;
+  transition: all 0.6s;
+  height: auto;
 }
 
 .componentBlock .contactFlex {
