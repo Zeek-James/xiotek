@@ -3,10 +3,19 @@ import { Link as ScrollLink } from "react-scroll/modules";
 
 const Header = () => {
   return (
-    <header>
+    <header name="HomeSection">
       <div className="topHeader">
         <div className="topHeaderLogo">
-          <img src="./images/logo_trans.png" alt="xiotek Logo" />
+          <ScrollLink
+            activeClass=""
+            to="HomeSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <img src="./images/logo_trans.png" alt="xiotek Logo" />
+          </ScrollLink>
         </div>
 
         <div className="topHeaderLinks">
@@ -18,11 +27,11 @@ const Header = () => {
             offset={-70}
             duration={500}
           >
-            About Us
+            About
           </ScrollLink>
           <ScrollLink
             activeClass="active"
-            to="AboutSection"
+            to="ServiceSection"
             spy={true}
             smooth={true}
             offset={-70}
@@ -32,7 +41,7 @@ const Header = () => {
           </ScrollLink>
           <ScrollLink
             activeClass="active"
-            to="AboutSection"
+            to="PortfolioSection"
             spy={true}
             smooth={true}
             offset={-70}
@@ -42,7 +51,7 @@ const Header = () => {
           </ScrollLink>
           <ScrollLink
             activeClass="active"
-            to="AboutSection"
+            to="TeamSection"
             spy={true}
             smooth={true}
             offset={-70}
@@ -52,13 +61,13 @@ const Header = () => {
           </ScrollLink>
           <ScrollLink
             activeClass="active"
-            to="AboutSection"
+            to="ContactSection"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
           >
-            Contact Us
+            Contact
           </ScrollLink>
         </div>
       </div>

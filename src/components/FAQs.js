@@ -5,7 +5,7 @@ const FAQs = () => {
   const [faqAnswer, setFAQAnswer] = useState(0);
 
   return (
-    <div className="componentBlock">
+    <div className="componentBlock" name="ContactSection">
       <h3> Frequently Asked Questions </h3>
       <div className="faqsBlocks">
         <div className={faqAnswer === 1 ? "faqblock active" : "faqblock"}>

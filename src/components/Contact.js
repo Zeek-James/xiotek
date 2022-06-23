@@ -5,7 +5,7 @@ import { BsPhone } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="componentBlock">
+    <div className="componentBlock" name="ContactSection">
       <h3> Need To Talk With Us ? </h3>
       <div className="contactFlex">
         <div className="contactFlexInfo">
