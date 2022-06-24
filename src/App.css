@@ -124,6 +124,45 @@ header .bodyHeader .bodyHeaderImage img {
   border-radius: 5px;
 }
 
+.componentBlock .servicesBlocks {
+  display: flex;
+  margin: 30px auto;
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.componentBlock .servicesBlocks .serviceBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px 20px;
+  width: 45%;
+}
+
+.componentBlock .servicesBlocks .serviceBlock .serviceInfo {
+  width: 45%;
+}
+
+.componentBlock .servicesBlocks .serviceBlock .serviceInfo h4 {
+  width: 80%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 3px auto;
+  color: #eb5d1e;
+}
+
+.componentBlock .servicesBlocks .serviceBlock .serviceInfo p {
+  width: 80%;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 3px auto;
+  font-family: "Poppins", sans-serif;
+}
+
 .componentBlock .portfolioGroups {
   text-align: center;
   padding: 12px 0;
@@ -283,7 +322,11 @@ header .bodyHeader .bodyHeaderImage img {
   border-left: 3px solid #eb5d1e;
   background: #ffffff;
   box-shadow: 5px 3px 5px #25252521;
-  padding: 10px 20px 5px;
+  padding: 20px 20px;
+}
+
+.componentBlock .contactFlexInfo .contactInfoFlex:hover {
+  box-shadow: 8px 6px 9px #25252541;
 }
 
 .componentBlock .contactFlexInfo .contactInfoFlex .contactInfoFlexText {
@@ -378,6 +421,42 @@ header .bodyHeader .bodyHeaderImage img {
   header .bodyHeader .bodyHeaderText {
     width: 95%;
     font-family: "Poppins", sans-serif;
+  }
+
+  .componentBlock .servicesBlocks {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .componentBlock .servicesBlocks .serviceBlock {
+    flex-direction: column;
+    margin: 30px auto;
+    width: 95%;
+  }
+
+  .componentBlock .servicesBlocks .serviceBlock .serviceInfo {
+    width: 90%;
+    text-align: center;
+  }
+
+  .componentBlock .portfolioBlocks {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .componentBlock .portfolioBlocks .portfolioBlock {
+    width: 80%;
+  }
+
+  .componentBlock .faqsBlocks {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .componentBlock .faqsBlocks .faqblock .faqQuestion {
+    padding: 0 6px 20px;
   }
 
   .componentBlock .contactFlex {
