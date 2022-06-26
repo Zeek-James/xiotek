@@ -117,11 +117,20 @@ header .bodyHeader .bodyHeaderImage img {
   content: " ";
   position: relative;
   display: block;
-  width: 21%;
+  width: 15%;
   margin: 2px auto;
   background: #eb5d1e;
   padding: 2px;
   border-radius: 5px;
+}
+
+.componentBlock > p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  margin: 12px 0;
 }
 
 .componentBlock .aboutBlocks {
@@ -494,6 +503,48 @@ header .bodyHeader .bodyHeaderImage img {
   background: linear-gradient(to bottom right, transparent, #eb5d1e);
 }
 
+.componentBlock .uploadForm {
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  border: 1px solid #eb5d1e;
+  border-radius: 8px;
+  margin: 25px auto;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex input {
+  width: 75%;
+  padding: 12px 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #252525e5;
+  border-radius: 8px 0 0 8px;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex input[type="file"] {
+  display: none;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex button {
+  width: 25%;
+  border-radius: 0 4px 4px 0;
+  background: #eb5d1e;
+  color: #efefef;
+  font-weight: 800;
+  padding: 16px 12px;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 600px) {
   header .topHeader {
     justify-content: flex-start;
@@ -601,5 +652,17 @@ header .bodyHeader .bodyHeaderImage img {
 
   .componentBlock .contactFlexForm form button {
     width: 40%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex {
+    width: 95%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex input {
+    width: 55%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex button {
+    width: 45%;
   }
 }
