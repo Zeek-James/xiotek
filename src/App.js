@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Services />
       <Portfolio />
       <FAQs />
+      <Team />
       <Contact />
     </>
   );
