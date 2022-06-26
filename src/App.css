@@ -199,7 +199,7 @@ header .bodyHeader .bodyHeaderImage img {
 
 .componentBlock h3 {
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin: 40px auto 0;
 }
 
@@ -207,11 +207,103 @@ header .bodyHeader .bodyHeaderImage img {
   content: " ";
   position: relative;
   display: block;
-  width: 21%;
+  width: 15%;
   margin: 2px auto;
   background: #eb5d1e;
   padding: 2px;
   border-radius: 5px;
+}
+
+.componentBlock > p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  margin: 12px 0;
+}
+
+.componentBlock .aboutBlocks {
+  display: flex;
+  margin: 30px auto;
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.componentBlock .aboutBlocks .aboutBlock {
+  width: 45%;
+}
+
+.componentBlock .aboutBlocks .aboutBlock lottie-player {
+  width: 75%;
+  display: block;
+  margin: 10px auto;
+  background: transparent;
+}
+
+.componentBlock .aboutBlocks .aboutBlock .aboutInfo p {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+  margin: 20px 0;
+}
+
+.componentBlock .aboutBlocks .aboutBlock .aboutInfo .aboutInfoFlex {
+  display: flex;
+  margin: 30px auto;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.componentBlock
+  .aboutBlocks
+  .aboutBlock
+  .aboutInfo
+  .aboutInfoFlex
+  .aboutInfoFlexBlock {
+  width: 50%;
+}
+
+.componentBlock
+  .aboutBlocks
+  .aboutBlock
+  .aboutInfo
+  .aboutInfoFlex
+  .aboutInfoFlexBlock
+  svg {
+  font-size: 2rem;
+  color: #eb5d1e;
+}
+
+.componentBlock
+  .aboutBlocks
+  .aboutBlock
+  .aboutInfo
+  .aboutInfoFlex
+  .aboutInfoFlexBlock
+  h4 {
+  font-size: 1.2rem;
+  color: #eb5d1e;
+}
+
+.componentBlock
+  .aboutBlocks
+  .aboutBlock
+  .aboutInfo
+  .aboutInfoFlex
+  .aboutInfoFlexBlock
+  p {
+  font-size: 0.8rem;
+  width: 80%;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
 
 .componentBlock .servicesBlocks {
@@ -413,6 +505,7 @@ header .bodyHeader .bodyHeaderImage img {
   background: #ffffff;
   box-shadow: 5px 3px 5px #25252521;
   padding: 20px 20px;
+  border-radius: 0 4px 4px 0;
 }
 
 .componentBlock .contactFlexInfo .contactInfoFlex:hover {
@@ -469,7 +562,7 @@ header .bodyHeader .bodyHeaderImage img {
   width: 90%;
   display: block;
   font-weight: 700;
-  font-size: 0.89rem;
+  font-size: 0.79rem;
 }
 
 .componentBlock .contactFlexForm form input,
@@ -480,7 +573,7 @@ header .bodyHeader .bodyHeaderImage img {
   border-bottom: 1px solid #eb5d1e;
   margin: 5px 0 20px;
   resize: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .componentBlock .contactFlexForm form button {
@@ -502,6 +595,53 @@ header .bodyHeader .bodyHeaderImage img {
     align-items: center;
   }
 }
+
+.componentBlock .contactFlexForm form button:hover {
+  background: linear-gradient(to bottom right, transparent, #eb5d1e);
+}
+
+.componentBlock .uploadForm {
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  border: 1px solid #eb5d1e;
+  border-radius: 8px;
+  margin: 25px auto;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex input {
+  width: 75%;
+  padding: 12px 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #252525e5;
+  border-radius: 8px 0 0 8px;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex input[type="file"] {
+  display: none;
+}
+
+.componentBlock .uploadForm .uploadFormInputFlex button {
+  width: 25%;
+  border-radius: 0 4px 4px 0;
+  background: #eb5d1e;
+  color: #efefef;
+  font-weight: 800;
+  padding: 16px 12px;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 600px) {
   header .topHeader {
     justify-content: flex-start;
@@ -517,6 +657,34 @@ header .bodyHeader .bodyHeaderImage img {
   header .bodyHeader .bodyHeaderText {
     width: 95%;
     font-family: "Poppins", sans-serif;
+  }
+
+  .componentBlock .aboutBlocks {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .componentBlock .aboutBlocks .aboutBlock {
+    margin: 5px auto;
+    width: 95%;
+  }
+
+  .componentBlock .aboutBlocks .aboutBlock lottie-player {
+    width: 90%;
+  }
+
+  .componentBlock .aboutBlocks .aboutBlock .aboutInfo .aboutInfoFlex {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .componentBlock
+    .aboutBlocks
+    .aboutBlock
+    .aboutInfo
+    .aboutInfoFlex
+    .aboutInfoFlexBlock {
+    width: 90%;
   }
 
   .componentBlock .servicesBlocks {
@@ -588,5 +756,17 @@ header .bodyHeader .bodyHeaderImage img {
 
   .componentBlock .contactFlexForm form button {
     width: 40%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex {
+    width: 95%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex input {
+    width: 55%;
+  }
+
+  .componentBlock .uploadForm .uploadFormInputFlex button {
+    width: 45%;
   }
 }

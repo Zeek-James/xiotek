@@ -78,20 +78,28 @@ const Header = () => {
           <p>
             We are team of talented designers making websites with Bootstrap
           </p>
-          <button> Get Started </button>
+
+          <ScrollLink
+            activeClass="active"
+            to="AboutSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <button> Get Started </button>
+          </ScrollLink>
         </div>
         <div className="bodyHeaderImage">
           <lottie-player
             src={"https://assets2.lottiefiles.com/packages/lf20_obkemuop.json"}
             speed={1}
             style={{
-              //   width: "300px",
-              //   height: "300px",
               background: "transparent",
             }}
             loop
             autoplay
-          ></lottie-player>
+          />
         </div>
       </div>
     </header>

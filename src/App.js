@@ -6,16 +6,20 @@ import FAQs from "./components/FAQs";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Team from "./components/Team";
+import About from "./components/About";
+import Upload from "./components/Upload";
 
 const App = () => {
   return (
     <>
       <Header />
+      <About />
       <Services />
       <Portfolio />
       <FAQs />
       <Team />
       <Contact />
+      <Upload />
     </>
   );
 };
