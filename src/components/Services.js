@@ -16,7 +16,7 @@ const Services = () => {
             }}
             loop
             autoplay
-          ></lottie-player>
+          />
           <div className="serviceInfo">
             <h4> Web Development </h4>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -33,7 +33,7 @@ const Services = () => {
             }}
             loop
             autoplay
-          ></lottie-player>
+          />
           <div className="serviceInfo">
             <h4> Web Development </h4>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -50,7 +50,7 @@ const Services = () => {
             }}
             loop
             autoplay
-          ></lottie-player>
+          />
           <div className="serviceInfo">
             <h4> Web Development </h4>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -67,7 +67,7 @@ const Services = () => {
             }}
             loop
             autoplay
-          ></lottie-player>
+          />
           <div className="serviceInfo">
             <h4> Web Development </h4>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
