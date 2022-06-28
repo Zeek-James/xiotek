@@ -578,6 +578,7 @@ header .bodyHeader .bodyHeaderImage img {
   margin: 5px 0 20px;
   resize: none;
   font-size: 0.8rem;
+  font-family: "Anek Latin", sans-serif;
 }
 
 .componentBlock .contactFlexForm form button {
@@ -644,6 +645,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-weight: 700;
   color: #252525e5;
   border-radius: 8px 0 0 8px;
+  font-family: "Anek Latin", sans-serif;
 }
 
 .componentBlock .uploadForm .uploadFormInputFlex input[type="file"] {
