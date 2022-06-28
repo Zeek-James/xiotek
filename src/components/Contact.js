@@ -3,17 +3,22 @@ import { BiMap } from "react-icons/bi";
 import { FaRegEnvelope } from "react-icons/fa";
 import { BsPhone } from "react-icons/bs";
 import axios from "axios";
+import { toast } from "react-toastify";
+import { BiLoaderAlt } from "react-icons/bi";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
-  const submitContactForm = (e) => {
+  const submitContactForm = async (e) => {
     e.preventDefault();
 
-    axios
+    setFormSubmitted(true);
+
+    await axios
       .post(
         "https://mailclient.xiotek.biz/newContact.php",
         {
@@ -26,10 +31,22 @@ const Contact = () => {
       )
       .then((res) => {
         console.log(res);
+        res.status === 200 &&
+          res.data === "Sent" &&
+          toast.success("Contact Mail Sent. Expect A Reply From us Soon");
       })
       .catch((err) => {
         console.log(err);
+        err.status === "400" && toast.error("Please Enter A Valid Email");
+        err.status === "500" &&
+          toast.error("Something Went Wrong. Please Try Again Later.");
+        err.status === "404" && toast.error("Please Upload A Resume");
+        err.status === "403" && toast.error("Please Upload A Resume");
+        err.code === "ERR_NETWORK" &&
+          toast.error("Please Check Your Internet Connection");
       });
+
+    setFormSubmitted(false);
   };
 
   return (
@@ -106,7 +123,9 @@ const Contact = () => {
                 value={message}
                 onInput={(e) => setMessage(e.target.value)}
               ></textarea>
-              <button type="submit"> Send Message </button>
+              <button type="submit" disabled={formSubmitted}>
+                {formSubmitted ? <BiLoaderAlt /> : "Send Message"}
+              </button>
             </form>
           </div>
         </div>

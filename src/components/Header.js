@@ -7,7 +7,6 @@ const Header = () => {
       <div className="topHeader">
         <div className="topHeaderLogo">
           <ScrollLink
-            activeClass=""
             to="HomeSection"
             spy={true}
             smooth={true}

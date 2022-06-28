@@ -8,10 +8,23 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import About from "./components/About";
 import Upload from "./components/Upload";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
     <>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover={false}
+      />
       <Header />
       <About />
       <Services />

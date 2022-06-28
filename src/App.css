@@ -593,6 +593,27 @@ header .bodyHeader .bodyHeaderImage img {
   border-radius: 8px;
 }
 
+.componentBlock .contactFlexForm form button:disabled,
+.componentBlock .uploadForm .uploadFormInputFlex button:disabled {
+  padding: 12px 5px;
+}
+
+.componentBlock .contactFlexForm form button svg,
+.componentBlock .uploadForm .uploadFormInputFlex button svg {
+  animation: loadingForm 1s infinite;
+  font-size: 1.6em;
+}
+
+@keyframes loadingForm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .componentBlock .contactFlexForm form button:hover {
   background: linear-gradient(to bottom right, transparent, #eb5d1e);
 }
