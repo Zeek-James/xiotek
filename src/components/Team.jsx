@@ -3,12 +3,7 @@ import { BsInstagram, BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 
 const Team = () => {
   return (
-    <div
-      className="team componentBlock "
-      name="ServiceSection"
-      id="team"
-      //   className="team"
-    >
+    <div className="team componentBlock " name="TeamSection" id="team">
       <div className="container">
         <div className="section-title" data-aos="fade-up">
           <h3>Our team is always here to help</h3>
@@ -34,18 +29,18 @@ const Team = () => {
                   <span>Co-Founder/ HR Manager</span>
                 </div>
                 <div className="social">
-                  <a href="">
+                  <a href="https://example.com">
                     <BsTwitter />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsFacebook />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsInstagram />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsLinkedin />
-                  </a>{" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -71,18 +66,18 @@ const Team = () => {
                   <span>Chief Technical Officer</span>
                 </div>
                 <div className="social">
-                  <a href="">
+                  <a href="https://example.com">
                     <BsTwitter />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsFacebook />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsInstagram />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsLinkedin />
-                  </a>{" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -107,16 +102,16 @@ const Team = () => {
                   <span>Tech Lead</span>
                 </div>
                 <div className="social">
-                  <a href="">
+                  <a href="https://example.com">
                     <BsTwitter />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsFacebook />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsInstagram />
                   </a>
-                  <a href="">
+                  <a href="https://example.com">
                     <BsLinkedin />
                   </a>
                 </div>
