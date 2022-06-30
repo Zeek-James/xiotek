@@ -4,6 +4,7 @@
   text-decoration: none;
   outline: none;
   border: none;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 /* Team */
@@ -160,7 +161,7 @@ header .bodyHeader {
 
 header .bodyHeader .bodyHeaderText {
   width: 40%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 header .bodyHeader .bodyHeaderText h4 {
@@ -219,7 +220,7 @@ header .bodyHeader .bodyHeaderImage img {
 .componentBlock > p {
   font-size: 0.8rem;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-style: oblique;
   margin: 12px 0;
@@ -248,7 +249,7 @@ header .bodyHeader .bodyHeaderImage img {
 
 .componentBlock .aboutBlocks .aboutBlock .aboutInfo p {
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-style: oblique;
   margin: 20px 0;
@@ -305,7 +306,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-size: 0.8rem;
   width: 80%;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .componentBlock .servicesBlocks {
@@ -344,7 +345,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-size: 0.8rem;
   font-weight: 300;
   margin: 3px auto;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .componentBlock .portfolioGroups {
@@ -578,7 +579,7 @@ header .bodyHeader .bodyHeaderImage img {
   margin: 5px 0 20px;
   resize: none;
   font-size: 0.8rem;
-  font-family: "Anek Latin", sans-serif;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 .componentBlock .contactFlexForm form button {
@@ -645,7 +646,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-weight: 700;
   color: #252525e5;
   border-radius: 8px 0 0 8px;
-  font-family: "Anek Latin", sans-serif;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 .componentBlock .uploadForm .uploadFormInputFlex input[type="file"] {
@@ -676,7 +677,7 @@ header .bodyHeader .bodyHeaderImage img {
 
   header .bodyHeader .bodyHeaderText {
     width: 95%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
   }
 
   .componentBlock .aboutBlocks {
