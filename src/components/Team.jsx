@@ -1,5 +1,5 @@
 import React from "react";
-import { BsInstagram, BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
 
 const Team = () => {
   return (
