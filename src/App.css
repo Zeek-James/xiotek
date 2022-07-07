@@ -4,6 +4,7 @@
   text-decoration: none;
   outline: none;
   border: none;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 /* Team */
@@ -62,7 +63,7 @@
   bottom: 0;
   width: 50px;
   transition: left ease-in-out 0.3s;
-  background: rgba(78, 64, 57, 0.6);
+  background: #4e403999;
   text-align: center;
 }
 .team .member .social a {
@@ -81,9 +82,9 @@
 .team .member:hover .member-info {
   background: linear-gradient(
     0deg,
-    rgba(78, 64, 57, 0.95) 0%,
-    rgba(78, 64, 57, 0.95) 15%,
-    rgba(255, 255, 255, 0) 100%
+    #4e4039f2 0%,
+    #4e4039f2 15%,
+    #ffffff00 100%
   );
   opacity: 1;
   transition: 0.4s;
@@ -161,7 +162,7 @@ header .bodyHeader {
 
 header .bodyHeader .bodyHeaderText {
   width: 40%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 header .bodyHeader .bodyHeaderText h4 {
@@ -183,6 +184,7 @@ header .bodyHeader .bodyHeaderText button {
   color: #ffffff;
   display: inline-block;
   margin: 25px 0;
+  cursor: pointer;
 }
 
 header .bodyHeader .bodyHeaderImage {
@@ -202,6 +204,7 @@ header .bodyHeader .bodyHeaderImage img {
   text-align: center;
   font-size: 2rem;
   margin: 40px auto 0;
+  text-transform: capitalize;
 }
 
 .componentBlock h3::after {
@@ -218,7 +221,7 @@ header .bodyHeader .bodyHeaderImage img {
 .componentBlock > p {
   font-size: 0.8rem;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-style: oblique;
   margin: 12px 0;
@@ -247,7 +250,7 @@ header .bodyHeader .bodyHeaderImage img {
 
 .componentBlock .aboutBlocks .aboutBlock .aboutInfo p {
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-style: oblique;
   margin: 20px 0;
@@ -304,7 +307,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-size: 0.8rem;
   width: 80%;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .componentBlock .servicesBlocks {
@@ -343,7 +346,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-size: 0.8rem;
   font-weight: 300;
   margin: 3px auto;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .componentBlock .portfolioGroups {
@@ -361,6 +364,7 @@ header .bodyHeader .bodyHeaderImage img {
   border-radius: 25px;
   background: transparent;
   margin: 6px 12px;
+  cursor: pointer;
 }
 
 .componentBlock .portfolioGroups label.active {
@@ -453,6 +457,7 @@ header .bodyHeader .bodyHeaderImage img {
   align-items: center;
   justify-content: flex-start;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .componentBlock .faqsBlocks .faqblock .faqQuestion svg {
@@ -575,6 +580,7 @@ header .bodyHeader .bodyHeaderImage img {
   margin: 5px 0 20px;
   resize: none;
   font-size: 0.8rem;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 .componentBlock .contactFlexForm form button {
@@ -589,11 +595,25 @@ header .bodyHeader .bodyHeaderImage img {
   font-weight: 700;
   border-radius: 8px;
 }
-@media (max-width: 1400px) {
-  .componentBlock .member_Container {
-    width: 95%;
-    flex-direction: column;
-    align-items: center;
+
+.componentBlock .contactFlexForm form button:disabled,
+.componentBlock .uploadForm .uploadFormInputFlex button:disabled {
+  padding: 12px 5px;
+}
+
+.componentBlock .contactFlexForm form button svg,
+.componentBlock .uploadForm .uploadFormInputFlex button svg {
+  animation: loadingForm 1s infinite;
+  font-size: 1.6em;
+}
+
+@keyframes loadingForm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -627,6 +647,7 @@ header .bodyHeader .bodyHeaderImage img {
   font-weight: 700;
   color: #252525e5;
   border-radius: 8px 0 0 8px;
+  font-family: "Anek Latin", sans-serif !important;
 }
 
 .componentBlock .uploadForm .uploadFormInputFlex input[type="file"] {
@@ -696,7 +717,7 @@ header .bodyHeader .bodyHeaderImage img {
 
   header .bodyHeader .bodyHeaderText {
     width: 95%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
   }
 
   .componentBlock .aboutBlocks {
