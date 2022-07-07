@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <div className="contactInfoFlexText">
               <h4> Location </h4>
-              <p> A108 Adam Street, New York, NY 535022 </p>
+              <p> 2 Anipupo Street Ogba, Lagos</p>
             </div>
           </div>
           <div className="contactInfoFlex">
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="contactInfoFlexText">
               <h4> Email </h4>
-              <p> info@xiobiz.tech </p>
+              <p> info@xiotek.biz </p>
             </div>
           </div>
           <div className="contactInfoFlex">

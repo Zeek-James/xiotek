@@ -24,6 +24,7 @@
   background: #343a40;
   position: relative;
   overflow: hidden;
+
   width: fit-content;
 }
 .team .member .member-info {
@@ -642,6 +643,45 @@ header .bodyHeader .bodyHeaderImage img {
   font-size: 0.8rem;
 }
 
+.componentBlock .missionBrief {
+  margin: 15px;
+  padding: 10px;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.componentBlock .missionBlocks {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  margin: 12px auto;
+  width: 90%;
+}
+
+.componentBlock .missionBlocks .missionBlock {
+  width: 18%;
+  align-items: center;
+  padding: 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+  background: #ffffff;
+  line-height: 30px;
+  border-left: 2px solid #eb5d1e;
+  border-top: 3px solid #eb5d1e;
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 5px 3px 5px #25252521;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
 @media (max-width: 600px) {
   header .topHeader {
     justify-content: flex-start;
@@ -768,5 +808,14 @@ header .bodyHeader .bodyHeaderImage img {
 
   .componentBlock .uploadForm .uploadFormInputFlex button {
     width: 45%;
+  }
+
+  .componentBlock .missionBlocks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .componentBlock .missionBlock {
+    width: 200px !important;
   }
 }

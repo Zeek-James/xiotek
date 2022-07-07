@@ -18,8 +18,11 @@ const Services = () => {
             autoplay
           />
           <div className="serviceInfo">
-            <h4> Web Development </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h4> STAFFING AND RECRUITMENT </h4>
+            <p>
+              Hire top software developers and other tech professionals from
+              Nigeria, the UK, India and South Africa.{" "}
+            </p>
           </div>
         </div>
         <div className="serviceBlock">
@@ -35,8 +38,12 @@ const Services = () => {
             autoplay
           />
           <div className="serviceInfo">
-            <h4> Web Development </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h4> PROJECT MANAGEMENT </h4>
+            <p>
+              {" "}
+              Have your tech project completed and delivered with impeccable
+              speed.{" "}
+            </p>
           </div>
         </div>
         <div className="serviceBlock">
@@ -52,8 +59,8 @@ const Services = () => {
             autoplay
           />
           <div className="serviceInfo">
-            <h4> Web Development </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h4>CONSULTANCY AND SUPPORT</h4>
+            <p>Get expert solutions and tech support whenever you need it. </p>
           </div>
         </div>
         <div className="serviceBlock">
@@ -69,8 +76,12 @@ const Services = () => {
             autoplay
           />
           <div className="serviceInfo">
-            <h4> Web Development </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h4> WORKSHOPS </h4>
+            <p>
+              {" "}
+              Workshops that will help bring your team up to speed with
+              innovations, making them more efficient in their individual roles.{" "}
+            </p>
           </div>
         </div>
       </div>

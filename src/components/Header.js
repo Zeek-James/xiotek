@@ -74,7 +74,7 @@ const Header = () => {
       <div className="topHeaderCoverUp"></div>
       <div className="bodyHeader">
         <div className="bodyHeaderText">
-          <h4> Bettter digital experience with Ninestars </h4>
+          <h4> Bettter digital experience with Xiotek </h4>
           <p>
             We are team of talented designers making websites with Bootstrap
           </p>
@@ -87,7 +87,7 @@ const Header = () => {
             offset={-70}
             duration={500}
           >
-            <button> Get Started </button>
+            <button> Let's Talk </button>
           </ScrollLink>
         </div>
         <div className="bodyHeaderImage">

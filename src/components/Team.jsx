@@ -34,16 +34,10 @@ const Team = () => {
                   <span>Co-Founder/ HR Manager</span>
                 </div>
                 <div className="social">
-                  <a href="">
+                  <a href="@ccNwudo">
                     <BsTwitter />
                   </a>
-                  <a href="">
-                    <BsFacebook />
-                  </a>
-                  <a href="">
-                    <BsInstagram />
-                  </a>
-                  <a href="">
+                  <a href="@ccNwudo">
                     <BsLinkedin />
                   </a>{" "}
                 </div>
@@ -68,17 +62,11 @@ const Team = () => {
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Ebuka Nwudo</h4>
-                  <span>Chief Technical Officer</span>
+                  <span>Co-Founder/ Chief Technical Officer</span>
                 </div>
                 <div className="social">
                   <a href="">
                     <BsTwitter />
-                  </a>
-                  <a href="">
-                    <BsFacebook />
-                  </a>
-                  <a href="">
-                    <BsInstagram />
                   </a>
                   <a href="">
                     <BsLinkedin />
@@ -110,12 +98,7 @@ const Team = () => {
                   <a href="">
                     <BsTwitter />
                   </a>
-                  <a href="">
-                    <BsFacebook />
-                  </a>
-                  <a href="">
-                    <BsInstagram />
-                  </a>
+
                   <a href="">
                     <BsLinkedin />
                   </a>
