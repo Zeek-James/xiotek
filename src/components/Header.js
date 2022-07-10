@@ -76,7 +76,7 @@ const Header = () => {
           <h3
             style={{
               // color: "blue",
-              fontWeight: 500,
+              fontWeight: 700,
               fontSize: "2rem",
               paddingBottom: "2rem",
             }}
