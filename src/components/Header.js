@@ -50,6 +50,16 @@ const Header = () => {
           </ScrollLink>
           <ScrollLink
             activeClass="active"
+            to="MissionSection"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Our Mission
+          </ScrollLink>
+          {/* <ScrollLink
+            activeClass="active"
             to="TeamSection"
             spy={true}
             smooth={true}
@@ -57,7 +67,7 @@ const Header = () => {
             duration={500}
           >
             Team
-          </ScrollLink>
+          </ScrollLink> */}
           <ScrollLink
             activeClass="active"
             to="ContactSection"
