@@ -1,6 +1,4 @@
 import React from "react";
-import { FaStickyNote } from "react-icons/fa";
-import { AiOutlineTeam } from "react-icons/ai";
 
 const About = () => {
   return (
