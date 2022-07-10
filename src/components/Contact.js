@@ -72,7 +72,7 @@ const Contact = () => {
               <p> info@xiotek.biz </p>
             </div>
           </div>
-          <div className="contactInfoFlex">
+          {/* <div className="contactInfoFlex">
             <div className="contactInfoFlexIcon">
               <BsPhone />
             </div>
@@ -80,7 +80,7 @@ const Contact = () => {
               <h4> Call </h4>
               <p> +1 (558) 19 5488 </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="contactFlexForm">
           <div className="contactForm">
