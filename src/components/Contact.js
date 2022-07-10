@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiMap } from "react-icons/bi";
 import { FaRegEnvelope } from "react-icons/fa";
-import { BsPhone } from "react-icons/bs";
+// import { BsPhone } from "react-icons/bs";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { BiLoaderAlt } from "react-icons/bi";
