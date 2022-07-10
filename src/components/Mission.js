@@ -14,11 +14,6 @@ const Mission = () => {
           To deliver every service with impeccable speed.
         </div>
         <div className="missionBlock">
-          To encourage our clients - especially early stage startups by setting
-          competitive prices for our services and adjusting them to be
-          attractive enough to fit the desired budget.
-        </div>
-        <div className="missionBlock">
           To create a conducive and innovative working/business environment for
           our staff and clients.
         </div>
@@ -29,6 +24,11 @@ const Mission = () => {
         <div className="missionBlock">
           To give tech professionals the opportunity to explore new ideas and
           boost their work experience.
+        </div>
+        <div className="missionBlock">
+          To encourage our clients - especially early stage startups by setting
+          competitive prices for our services and adjusting them to be
+          attractive enough to fit the desired budget.
         </div>
       </div>
     </div>

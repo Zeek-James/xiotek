@@ -29,10 +29,10 @@ const Team = () => {
                   <span>Co-Founder/ HR Manager</span>
                 </div>
                 <div className="social">
-                  <a href="@ccNwudo">
+                  <a href="https://t.co/ccNwudo">
                     <BsTwitter />
                   </a>
-                  <a href="@ccNwudo">
+                  <a href="https://linkedin.com/in/ccNwudo">
                     <BsLinkedin />
                   </a>
                 </div>
