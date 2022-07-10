@@ -73,6 +73,16 @@ const Header = () => {
       <div className="topHeaderCoverUp"></div>
       <div className="bodyHeader">
         <div className="bodyHeaderText">
+          <h3
+            style={{
+              color: "blue",
+              fontWeight: 700,
+              fontSize: "4rem",
+              paddingBottom: "2rem",
+            }}
+          >
+            XIOTECH RESOURCES
+          </h3>
           <h4> TECH RECRUITMENT, SUPPORT AND CONSULTANCY SERVICES. </h4>
           <p>
             Connecting businesses with the best programmers for the most
