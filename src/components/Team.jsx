@@ -63,9 +63,9 @@ const Team = () => {
                   <a href="https://example.com">
                     <BsTwitter />
                   </a>
-                  <a href="">
+                  {/* <a href="">
                     <BsLinkedin />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -93,10 +93,10 @@ const Team = () => {
                   <a href="https://example.com">
                     <BsTwitter />
                   </a>
-
+                  {/* 
                   <a href="">
                     <BsLinkedin />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

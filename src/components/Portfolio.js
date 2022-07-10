@@ -19,12 +19,6 @@ const Portfolio = () => {
           App
         </label>
         <label
-          className={activeCards === "Card" ? "active" : ""}
-          onClick={() => setActiveCards("Card")}
-        >
-          Card
-        </label>
-        <label
           className={activeCards === "Web" ? "active" : ""}
           onClick={() => setActiveCards("Web")}
         >
@@ -34,7 +28,7 @@ const Portfolio = () => {
       <div className="portfolioBlocks">
         <div
           className={
-            activeCards === "All" || activeCards === "Card"
+            activeCards === "All" || activeCards === "App"
               ? "portfolioBlock active"
               : "portfolioBlock"
           }
@@ -43,8 +37,8 @@ const Portfolio = () => {
               "url(http://www.nuture.tech/_nuxt/img/1ac7915.png)",
           }}
         >
-          <p> Project Title </p>
-          <label> Project Description </label>
+          <p> Nuture Tech</p>
+          <label> Providing solutions to your technological challenges</label>
         </div>
         <div
           className={
@@ -57,8 +51,13 @@ const Portfolio = () => {
               "url(https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2021/02/Ibaka-Tv.png?resize=275%2C183&ssl=1)",
           }}
         >
-          <p> Project Title </p>
-          <label> Project Description </label>
+          <p> Ibaka Tv </p>
+          <label>
+            {" "}
+            IBAKATV is an online movie streaming service that offers large
+            varieties of the latest premium Nollywood blockbuster movies and TV
+            series{" "}
+          </label>
         </div>
         <div
           className={
@@ -71,8 +70,11 @@ const Portfolio = () => {
               "url(https://gatatransport.com.ng/wp-content/uploads/2021/07/Getatransport.png)",
           }}
         >
-          <p> Project Title </p>
-          <label> Project Description </label>
+          <p> Gogata </p>
+          <label>
+            {" "}
+            Rental app that allow users drive themselves or request a driver{" "}
+          </label>
         </div>
         <div
           className={
@@ -87,8 +89,8 @@ const Portfolio = () => {
               "url(https://ngfinders.com//wp-content/uploads/2019/09/Wema-Bank.jpg)",
           }}
         >
-          <p> Project Title </p>
-          <label> Project Description </label>
+          <p> Wema Bank </p>
+          <label> Explore banking tailored to your needs </label>
         </div>
       </div>
     </div>
