@@ -73,14 +73,15 @@ const Header = () => {
       <div className="topHeaderCoverUp"></div>
       <div className="bodyHeader">
         <div className="bodyHeaderText">
-          <h4> Bettter digital experience with Xiotek </h4>
+          <h4> TECH RECRUITMENT, SUPPORT AND CONSULTANCY SERVICES. </h4>
           <p>
-            We are team of talented designers making websites with Bootstrap
+            Connecting businesses with the best programmers for the most
+            challenging projects.
           </p>
 
           <ScrollLink
             activeClass="active"
-            to="AboutSection"
+            to="ContactSection"
             spy={true}
             smooth={true}
             offset={-70}
