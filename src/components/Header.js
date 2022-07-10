@@ -75,13 +75,13 @@ const Header = () => {
         <div className="bodyHeaderText">
           <h3
             style={{
-              color: "blue",
-              fontWeight: 700,
-              fontSize: "4rem",
+              // color: "blue",
+              fontWeight: 500,
+              fontSize: "2rem",
               paddingBottom: "2rem",
             }}
           >
-            XIOTECH RESOURCES
+            XIOTEK RESOURCES
           </h3>
           <h4> TECH RECRUITMENT, SUPPORT AND CONSULTANCY SERVICES. </h4>
           <p>
